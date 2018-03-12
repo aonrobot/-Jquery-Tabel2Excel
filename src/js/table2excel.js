@@ -1,7 +1,11 @@
 ;(function (window) {
     'use strict'
-
+    
     var API_URL = '/center/table2excel/export';
+
+    if(typeof(env) !== 'undefined'){
+        API_URL = env["TABLE2EXCEL_API_URL"];
+    }
 
     function I(name){
         return $('#' + name);
