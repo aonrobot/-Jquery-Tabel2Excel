@@ -1,0 +1,29 @@
+{
+  "name": "jquery-laravel-table2excel",
+  "version": "1.0.0",
+  "description": "table data to excel using jquery and laravel excel",
+  "main": "table2excel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aonrobot/jQuery-Laravel-Tabel2Excel.git"
+  },
+  "keywords": [
+    "table2excel"
+  ],
+  "author": "Auttawut Wiriyakreng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aonrobot/jQuery-Laravel-Tabel2Excel/issues"
+  },
+  "homepage": "https://github.com/aonrobot/jQuery-Laravel-Tabel2Excel#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-util": "latest",
+    "gulp-concat": "latest",
+    "gulp-uglify": "^3.0.0",
+    "gulp-rename": "latest"
+  }
+}
