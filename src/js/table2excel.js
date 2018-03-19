@@ -50,7 +50,7 @@
         return "";
     }
     
-    window.table2excel = function(tableId){
+    global.table2excel = function(tableId){
         if(tableId == undefined){
             console.log('Table2Excel : Please specify table id');
             return 0;
