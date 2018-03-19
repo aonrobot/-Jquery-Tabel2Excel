@@ -7,7 +7,7 @@ const config = {
   },
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'table2excel.bundle.js'
+    filename: 'table2excel.min.js'
   },
   module: {
     rules: [
